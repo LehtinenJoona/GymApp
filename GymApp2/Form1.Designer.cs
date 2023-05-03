@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
             panel2 = new Panel();
             panel23 = new Label();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -50,48 +50,6 @@
             panel1.Size = new Size(771, 405);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Fuchsia;
-            button1.FlatAppearance.BorderColor = Color.Black;
-            button1.FlatAppearance.MouseDownBackColor = Color.MistyRose;
-            button1.FlatAppearance.MouseOverBackColor = Color.LemonChiffon;
-            button1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(21, 180);
-            button1.Name = "button1";
-            button1.Size = new Size(156, 143);
-            button1.TabIndex = 0;
-            button1.Text = "Legs";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Fuchsia;
-            button2.FlatAppearance.BorderColor = Color.Black;
-            button2.FlatAppearance.MouseDownBackColor = Color.MistyRose;
-            button2.FlatAppearance.MouseOverBackColor = Color.LemonChiffon;
-            button2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(302, 180);
-            button2.Name = "button2";
-            button2.Size = new Size(156, 143);
-            button2.TabIndex = 1;
-            button2.Text = "Back";
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.Fuchsia;
-            button3.FlatAppearance.BorderColor = Color.Black;
-            button3.FlatAppearance.MouseDownBackColor = Color.MistyRose;
-            button3.FlatAppearance.MouseOverBackColor = Color.LemonChiffon;
-            button3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(572, 180);
-            button3.Name = "button3";
-            button3.Size = new Size(156, 143);
-            button3.TabIndex = 2;
-            button3.Text = "Chest";
-            button3.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -115,6 +73,49 @@
             panel23.TabIndex = 0;
             panel23.Text = "SUPERGYM";
             panel23.Click += panel23_Click;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.Fuchsia;
+            button3.FlatAppearance.BorderColor = Color.Black;
+            button3.FlatAppearance.MouseDownBackColor = Color.MistyRose;
+            button3.FlatAppearance.MouseOverBackColor = Color.LemonChiffon;
+            button3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.Location = new Point(572, 180);
+            button3.Name = "button3";
+            button3.Size = new Size(156, 143);
+            button3.TabIndex = 2;
+            button3.Text = "Chest";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Fuchsia;
+            button2.FlatAppearance.BorderColor = Color.Black;
+            button2.FlatAppearance.MouseDownBackColor = Color.MistyRose;
+            button2.FlatAppearance.MouseOverBackColor = Color.LemonChiffon;
+            button2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Location = new Point(302, 180);
+            button2.Name = "button2";
+            button2.Size = new Size(156, 143);
+            button2.TabIndex = 1;
+            button2.Text = "Back";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Fuchsia;
+            button1.FlatAppearance.BorderColor = Color.Black;
+            button1.FlatAppearance.MouseDownBackColor = Color.MistyRose;
+            button1.FlatAppearance.MouseOverBackColor = Color.LemonChiffon;
+            button1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Location = new Point(21, 180);
+            button1.Name = "button1";
+            button1.Size = new Size(156, 143);
+            button1.TabIndex = 0;
+            button1.Text = "Legs";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += panel23_Click;
             // 
             // Form1
             // 
