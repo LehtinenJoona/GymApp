@@ -28,26 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             listBox1 = new ListBox();
             SuspendLayout();
             // 
             // listBox1
             // 
+            listBox1.BackColor = Color.Gold;
             listBox1.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
             listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 45;
+            listBox1.ItemHeight = 65;
             listBox1.Items.AddRange(new object[] { "• Pull-ups (3 sets of 10 reps)", "• Seated cable rows (3 sets of 12 reps)", "• Dumbbell deadlifts (3 sets of 10 reps)", "• Back extensions (3 sets of 12 reps)" });
-            listBox1.Location = new Point(0, 0);
+            listBox1.Location = new Point(141, 172);
+            listBox1.Margin = new Padding(4, 5, 4, 5);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(800, 454);
+            listBox1.Size = new Size(860, 264);
             listBox1.TabIndex = 0;
             // 
             // Form3
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(1143, 750);
             Controls.Add(listBox1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Form3";
             Text = "Form3";
             ResumeLayout(false);
