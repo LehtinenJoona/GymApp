@@ -39,10 +39,10 @@
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 65;
             listBox1.Items.AddRange(new object[] { "• Pull-ups (3 sets of 10 reps)", "• Seated cable rows (3 sets of 12 reps)", "• Dumbbell deadlifts (3 sets of 10 reps)", "• Back extensions (3 sets of 12 reps)" });
-            listBox1.Location = new Point(141, 172);
+            listBox1.Location = new Point(-5, 0);
             listBox1.Margin = new Padding(4, 5, 4, 5);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(860, 264);
+            listBox1.Size = new Size(1148, 264);
             listBox1.TabIndex = 0;
             // 
             // Form3

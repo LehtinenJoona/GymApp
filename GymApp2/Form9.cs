@@ -19,22 +19,22 @@ namespace GymApp2
 
         private void Form9_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "Great!";
+            label2.Text = "Great!";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            label1.Text = "ok!";
+            label2.Text = "Ok!";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label1.Text = "OH NO!";
+            label2.Text = "OH NO!";
         }
     }
 }

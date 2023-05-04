@@ -35,7 +35,7 @@ namespace GymApp2
         {
             timer1.Stop();
             label1.Text = "00:00:00";
-           stopwatch.Reset();
+            stopwatch.Reset();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
