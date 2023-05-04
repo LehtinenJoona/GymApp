@@ -8,8 +8,8 @@ namespace GymApp2
         Form5 form5 = new Form5();
         Form6 form6 = new Form6();
         Form7 form7 = new Form7();
-        Form8 form8 = new Form8();  
-        Form9 form9 = new Form9();  
+        Form8 form8 = new Form8();
+        Form9 form9 = new Form9();
 
         public Form1()
         {

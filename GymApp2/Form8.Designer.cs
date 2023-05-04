@@ -28,73 +28,85 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            label1 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            timer1 = new System.Windows.Forms.Timer(components);
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(96, 74);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 67);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "00:00:00";
+            label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(255, 255, 128);
+            label1.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(120, 92);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(253, 81);
+            label1.TabIndex = 0;
+            label1.Text = "00:00:00";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(49, 144);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "start";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.BackColor = Color.Gold;
+            button1.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Location = new Point(61, 180);
+            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Name = "button1";
+            button1.Size = new Size(118, 71);
+            button1.TabIndex = 1;
+            button1.Text = "Start";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(149, 144);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 29);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "stop";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            button2.BackColor = Color.Gold;
+            button2.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Location = new Point(186, 180);
+            button2.Margin = new Padding(4, 4, 4, 4);
+            button2.Name = "button2";
+            button2.Size = new Size(118, 71);
+            button2.TabIndex = 2;
+            button2.Text = "Stop";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(249, 144);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(94, 29);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "reset";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            button3.BackColor = Color.Gold;
+            button3.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.Location = new Point(311, 180);
+            button3.Margin = new Padding(4, 4, 4, 4);
+            button3.Name = "button3";
+            button3.Size = new Size(118, 71);
+            button3.TabIndex = 3;
+            button3.Text = "Reset";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // timer1
             // 
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
             // 
             // Form8
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
-            this.Name = "Form8";
-            this.Text = "Form8";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Black;
+            ClientSize = new Size(495, 323);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(label1);
+            Margin = new Padding(4, 4, 4, 4);
+            Name = "Form8";
+            Text = "Form8";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

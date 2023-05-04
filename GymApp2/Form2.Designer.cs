@@ -39,7 +39,7 @@
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 65;
             listBox1.Items.AddRange(new object[] { "• Barbell squats: 3 sets of 8-12 reps", "• Leg press: 3 sets of 10-15 reps", "• Walking lunges: 3 sets of 12-16 reps per leg", "• Romanian deadlifts: 3 sets of 10-12 reps" });
-            listBox1.Location = new Point(-1, -2);
+            listBox1.Location = new Point(0, 489);
             listBox1.Margin = new Padding(4, 5, 4, 5);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(1144, 264);
