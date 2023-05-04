@@ -8,6 +8,7 @@ namespace GymApp2
         Form5 form5 = new Form5();
         Form6 form6 = new Form6();
         Form7 form7 = new Form7();
+        Form8 form8 = new Form8();  
 
         public Form1()
         {
@@ -53,5 +54,11 @@ namespace GymApp2
         {
             form7.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            form8.Show();
+        }
+
     }
 }
