@@ -29,34 +29,38 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            listBox1 = new ListBox();
-            SuspendLayout();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
             // 
             // listBox1
             // 
-            listBox1.BackColor = Color.Gold;
-            listBox1.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 65;
-            listBox1.Items.AddRange(new object[] { "• Barbell squats: 3 sets of 8-12 reps", "• Leg press: 3 sets of 10-15 reps", "• Walking lunges: 3 sets of 12-16 reps per leg", "• Romanian deadlifts: 3 sets of 10-12 reps" });
-            listBox1.Location = new Point(0, 489);
-            listBox1.Margin = new Padding(4, 5, 4, 5);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(1144, 264);
-            listBox1.TabIndex = 1;
+            this.listBox1.BackColor = System.Drawing.Color.Gold;
+            this.listBox1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 65;
+            this.listBox1.Items.AddRange(new object[] {
+            "- Barbell squats: 3 sets of 8-12 reps",
+            "- Leg press: 3 sets of 10-15 reps",
+            "- Walking lunges: 3 sets of 12-16 reps per leg",
+            "- Romanian deadlifts: 3 sets of 10-12 reps"});
+            this.listBox1.Location = new System.Drawing.Point(0, 489);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(1144, 264);
+            this.listBox1.TabIndex = 1;
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1143, 750);
-            Controls.Add(listBox1);
-            Margin = new Padding(4, 5, 4, 5);
-            Name = "Form2";
-            Text = "Form2";
-            Load += Form2_Load;
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1143, 750);
+            this.Controls.Add(this.listBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "Form2";
+            this.Text = "Form2";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

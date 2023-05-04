@@ -29,33 +29,46 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form7));
-            listBox1 = new ListBox();
-            SuspendLayout();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
             // 
             // listBox1
             // 
-            listBox1.BackColor = Color.Gold;
-            listBox1.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 60;
-            listBox1.Items.AddRange(new object[] { "-Warm-up:", " 5-10 minutes of light cardio", "-Cardio:", " Interval: 30 seconds of sprinting,", " 30 seconds of rest, ", " repeat for 10-15 minutes", " Stairmaster: 10-15 minutes", " at a moderate pace", "-Cooldown:", " 10-15 minutes of light cardio", " Stretching exercises", " for legs and lower back" });
-            listBox1.Location = new Point(658, -3);
-            listBox1.Margin = new Padding(4, 5, 4, 5);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(654, 724);
-            listBox1.TabIndex = 0;
+            this.listBox1.BackColor = System.Drawing.Color.Gold;
+            this.listBox1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 60;
+            this.listBox1.Items.AddRange(new object[] {
+            "- Warm-up:",
+            " 5-10 minutes of light cardio",
+            "- Cardio:",
+            " Interval: 30 seconds of sprinting,",
+            " 30 seconds of rest, ",
+            " repeat for 10-15 minutes",
+            " Stairmaster: 10-15 minutes",
+            " at a moderate pace",
+            "- Cooldown:",
+            " 10-15 minutes of light cardio",
+            " Stretching exercises",
+            " for legs and lower back"});
+            this.listBox1.Location = new System.Drawing.Point(658, -3);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(654, 724);
+            this.listBox1.TabIndex = 0;
             // 
             // Form7
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1310, 721);
-            Controls.Add(listBox1);
-            Margin = new Padding(4, 5, 4, 5);
-            Name = "Form7";
-            Text = "Form7";
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1310, 721);
+            this.Controls.Add(this.listBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "Form7";
+            this.Text = "Form7";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
